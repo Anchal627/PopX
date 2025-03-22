@@ -16,7 +16,7 @@ function Account() {
   }, []);
 
   return (
-    <div className="relative w-[375px] h-[812px] bg-[#F7F8F9] opacity-100 border-2">
+    <div className="relative w-[375px] h-[812px] bg-[#F7F8F9] opacity-100 border-2 mt-20">
       <div className="absolute top-0 left-0 w-[375px] h-[68px] bg-white shadow-md opacity-100">
         <h1 className="absolute top-[27px] left-[15px] w-[152px] h-[22px] text-left text-[18px] leading-[21px] font-medium font-rubik text-[#1D2226] capitalize opacity-100">
           Account Settings
