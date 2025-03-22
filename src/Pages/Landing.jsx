@@ -9,7 +9,7 @@ function Landing() {
     navigate("/login");
   };
   return (
-    <div className="relative w-[375px] h-[812px] bg-[#F7F8F9] opacity-100 border-2">
+    <div className="relative w-[375px] h-[812px] bg-[#F7F8F9] opacity-100 border-2 ">
       <h1 className="absolute top-[549px] left-[20px] w-[231px] h-[33px] text-left text-[28px] leading-[17px] font-rubik font-medium text-[#1D2226] opacity-100">
         Welcome to PopX
       </h1>
