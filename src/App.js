@@ -7,7 +7,7 @@ import Register from "./Pages/Register";
 
 function App() {
   return (
-    <div className="h-full w-full bg-white flex justify-center items-center">
+    <div className="h-screen w-screen bg-white flex justify-center items-center pt-10">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Landing />} />

@@ -21,7 +21,7 @@ function Login() {
     navigate("/account");
   };
   return (
-    <div className="relative w-[375px] h-[812px] bg-[#F7F8F9] opacity-100 border-2">
+    <div className="relative w-[375px] h-[812px] bg-[#F7F8F9] opacity-100 border-2 p-6">
       <p className="absolute top-[40px] left-[20px] w-[199px] h-[69px] text-left text-[28px] leading-[36px] font-rubik font-[600] text-[#1D2226] opacity-100">
         Signin to your PopX account
       </p>
@@ -29,7 +29,7 @@ function Login() {
         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
       </p>
       <form className="space-y-6" onSubmit={handleSubmit}>
-        <div className="relative top-[195px] left-[20px]">
+        <div className="relative top-[199px] left-[20px]">
           <label
             htmlFor="email"
             className="absolute -top-2 left-[14px] px-1 bg-[#F7F8F9] text-[13px] font-[600] text-[#6C25FF] z-10"

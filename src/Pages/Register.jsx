@@ -20,8 +20,6 @@ function Register() {
   };
   const handleSubmit = (e) => {
     e.preventDefault();
-    localStorage.setItem("fullName", formData.fullName);
-    localStorage.setItem("email", formData.email);
     navigate("/account");
   };
   return (
